@@ -1,0 +1,21 @@
+.tx_wr{    width: 80px;
+    height: 80px;
+    background: #f2f2f2;display: inline-block;margin-left: 10px;
+    border: 1px solid #dee0e0;}
+.tx_wr img{width: 80px;height: 80px;vertical-align: middle;}    
+.dashed_line{width: 750px;border-bottom: 1px dashed #a0a0a0; margin:20px 0;}
+.xgtx .wrap{width: 330px;margin: 0 auto;}
+.xgtx .wrap .tit{margin: 70px auto 44px;font-size: 18px;}
+.xgtx .wrap .upload_wr .btn_cancel{width: 80px;margin-right: 20px;}
+.xgtx .wrap .file_des{color: #949494;margin: 24px auto 14px;}
+.xgtx .wrap .img_wr{width: 200px;height: 200px;margin: 14px auto; background: #f2f2f2;border: 1px solid #d6d8d7;}
+.xgtx .wrap .img_wr img{width: 200px;height: 200px;vertical-align: middle;border: none;}
+.xgtx .wrap .te{text-align: center;margin-bottom: 46px;}
+.xgtx .wrap .btn_wr a{ width: 140px;margin-right: 20px;}
+.xgmm .inform{height: 480px;margin-top: -240px;}
+.xgmm .wrap{width: 330px;margin: 0 auto;}
+.xgmm .wrap .tit{margin: 70px auto 44px;font-size: 18px;}
+.xgmm .wrap .input_wrap{position: relative;margin-bottom: 30px; line-height: 28px;}
+.xgmm .wrap .input_wrap input[type='password']{width: 180px;padding: 0 10px;height: 28px;line-height: 28px;border: 1px solid #d3d6d5; background: #f2f2f2;}
+.xgmm .wrap .input_wrap .pas_des{color: #bfbfbf;font-size: 12px;    position: absolute; bottom: -30px; width: 140px; left: 80px;}
+.xgmm .wrap .btn_wr a{ width: 140px;margin-right: 20px;margin-top: 46px;}

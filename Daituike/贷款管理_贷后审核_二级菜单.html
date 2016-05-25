@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<link rel="stylesheet" type="text/css" href="./css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="./css/loan_mana.css"/>
+		<script src="./js/less.min.js"></script>
+		<script src="js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+		<!--头部-->
+		<div class="header">
+			<div class="logo">
+				<img src="img/logo.png"/>
+			</div>
+			<div class="navigation">
+				<ul>
+					<li><a href="#">我的工作台</a></li>
+					<li class="on"><a href="#">贷款管理</a></li>
+					<li><a href="#">产品管理</a></li>
+					<li><a href="#">运营管理</a></li>
+					<li><a href="#">平台管理</a></li>
+					<li><a href="#">数据中心</a></li>
+					<li><a href="#">应用</a></li>
+					<li><a href="#">平台配置</a></li>
+				</ul>
+			</div>
+			<div class="info">
+				<div class="jiedan fl">
+					<span>接单</span>
+					<span class="btn_jd on"></span>
+					<span>挂起</span>
+				</div>
+				<div class="mess fl"><span>10</span></div>
+				<div class="user fl">
+					宋小宝
+					<ul>
+						<li><a href="#">我的资料</a></li>
+						<li><a href="#">退出</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<!--左侧导航-->
+		<div class="side_nav">
+			<div class="per_info">
+				<img src="img/per_hea.png" class="fl"/>
+				<p class="nam">宋小宝</p>
+				<p class="job">客户经理</p>
+			</div>
+			<ul class="nav">
+				<li class="on"><a href="#" class="zuzhu">新建贷款订单</a></li>
+				<li><a href="#" class="zuzhu">贷前审核</a></li>
+				<li><a href="#" class="quanxian">贷中审核</a></li>
+				<li><a href="#" class="zhanhao has_sub">贷后审核<span class="icon_arow_down"></span></a></li>
+				<ul class="sub">
+					<li><a href="#" class="">批款管理</a></li>
+					<li><a href="#" class="">批款管理</a></li>
+					<li><a href="#" class="">批款管理</a></li>
+				</ul>
+				<li><a href="#" class="zhanhao">我的推客订单</a></li>
+			</ul>
+		</div>
+		<!--主内容块-->
+		<div class="content">
+			<div class="loan_sear_hea">申请时间<input type="text" class="normal" placeholder="年/月/日       —       年/月/日"/><input type="text" class="normal" placeholder="搜索姓名、订单号、手机号"/><a href="#" class="btn_ok auto_width">搜索</a></div>
+			<div style="margin-top: 10px;">
+				<div class="select_wrap fl">
+					<span class="text">查看下属订单</span>
+					<ul>
+						<li>1</li>
+						<li>2</li>
+						<li>3</li>
+					</ul>
+					<span class="select_arrow_down"></span>
+				</div>
+				<a href="#" class="btn_ok" style="margin-left: 20px;">订单调配</a>
+			</div>
+			<div class="tab_switch">
+						<span class="on">全部</span>|<span>初审中</span>|<span>初审失败</span>|<span>初审删除</span>
+			</div>
+			<div class="table_2">
+				<table>
+					<tr><th>姓名</th><th>申请贷款金额（元）<i class="icon_up_down"></i></th><th>贷款方式<i class="icon_up_down"></i></th><th>工作地<i class="icon_up_down"></i></th><th>申请时间<i class="icon_up_down"></i></th><th>操作</th></tr>
+					<tr class="table_2_tit2"><td colspan="6"><div ><span>订单号：108888</span>
+					<span>初审人员：王大帅 </span>
+					<span>状态：初审中</span>  </div></td></tr>
+					<tr class="white"><td>小王</td>
+					<td>1000</td>
+					<td>1000</td>
+					<td>1000</td>
+					<td>1000</td>
+					<td><a class="span_btn act">查看详情</a></td></tr>
+					<tr class="table_2_tit2"><td colspan="6"><div><span>订单号：108888</span>
+					<span>初审人员：王大帅 </span>
+					<span>状态：初审中</span>  </div></td></tr>
+					<tr class="white"><td>Data<span>cessfsd</span></td><td>Data2</td><td>Data3</td><td>Data<span>cessfsd</span></td><td>Data2</td><td><a class="span_btn act">查看详情</a></td></tr>
+					
+				</table>
+			</div>
+			
+			<div class="pagination">
+				<div class="fl">
+					每页显示<input type="text" class="page_input"><a href="#" class="inline-block-btn">确定</a>
+				</div>
+				<div class="fr">
+					<a class="page_item pre">&lt;</a><a class="page_item on">1</a><a class="page_item">2</a><a class="page_item more">...</a><a class="page_item">3</a><a class="page_item nex">&gt;</a>
+				</div>
+			</div>
+		</div>
+<script type="text/javascript">
+	
+$(document).ready(function() {
+	
+	autoHeight();
+	function autoHeight(){				
+			if(($(".side_nav")[0]).offsetHeight>=($(".content")[0]).offsetHeight){
+		($(".content")[0]).style.height=($(".side_nav")[0]).offsetHeight-52+"px";
+	}else{
+		($(".side_nav")[0]).style.height=($(".content")[0]).offsetHeight+"px";
+	}
+	};
+		
+});
+</script>		
+	</body>
+</html>

@@ -1,0 +1,188 @@
+.sea_hea {
+  padding-bottom: 37px;
+  border-bottom: 1px dashed #ccc;
+}
+.sea_hea .input_wra {
+  float: left;
+  color: #1b1b1b;
+  margin-left: 20px;
+  height: 32px;
+  line-height: 32px;
+}
+.sea_hea .input_wra input {
+  width: 120px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  margin-left: 10px;
+  border: 1px solid #dee0e0;
+}
+.table_header {
+  margin: 30px 0 16px;
+}
+.btn_pljh {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  width: 86px;
+  background: #f18e38 url(../img/icon_pljh.png) no-repeat 24px;
+  padding-left: 47px;
+  border-radius: 6px;
+  color: #fff;
+  margin: 0 6px;
+}
+.btn_plgq {
+  display: inline-block;
+  height: 36px;
+  line-height: 36px;
+  width: 86px;
+  background: #ffffff url(../img/icon_plgq.png) no-repeat 24px;
+  padding-left: 47px;
+  border-radius: 6px;
+  color: #000;
+  border: 1px solid #d3d6d5;
+  margin: 0 6px;
+}
+.btn_plzx {
+  display: inline-block;
+  height: 36px;
+  border: 1px solid #d3d6d5;
+  line-height: 36px;
+  width: 86px;
+  background: #ffffff url(../img/icon_plzx.png) no-repeat 24px;
+  padding-left: 47px;
+  border-radius: 6px;
+  color: #000;
+  margin: 0 6px;
+}
+.pop_window .inform.add_acount_wrap {
+/*  position: absolute;
+  left: 45px;
+  right: 45px;
+  top: 26px;
+  bottom: 26px;
+  background: #fff;
+  z-index: 666;*/
+	 overflow-y: scroll;
+    padding: 0;
+    width: 800px;
+    margin-left: -400px;
+    height: 600px;
+    margin-top: -300px;
+}
+.add_acount_wrap .add_acount {
+  width: 374px;
+  margin: 0 auto;
+}
+.add_acount_wrap .add_acount .tit {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin: 43px 0 32px;
+}
+.add_acount_wrap .add_acount .input_wra {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.add_acount_wrap .add_acount .input_wra .lef_tit {
+  float: left;
+}
+.add_acount_wrap .add_acount .input_wra .rit_wra {
+  width: 250px;
+  position: relative;
+  margin-left: 120px;
+}
+.add_acount_wrap .add_acount .input_wra .rit_wra input[type='text'],
+.add_acount_wrap .add_acount .input_wra .rit_wra input[type='password'] {
+  width: 200px;
+  height: 28px;
+  border: 1px solid #d3d6d5;
+  background: #f2f2f2;
+  padding: 0 10px;
+}
+.add_acount_wrap .add_acount .input_wra .rit_wra .sel_wra {
+  width: 220px;
+  height: 28px;
+  position: relative;
+  border: 1px solid #d3d6d5;
+  background: #f2f2f2;
+  text-align: center;
+}
+.add_acount_wrap .add_acount .input_wra .rit_wra .sel_wra ul {
+  background: #ddd;
+  position: relative;
+  z-index: 66;
+  display: none;
+}
+.add_acount_wrap .add_acount .input_wra .rit_wra .sel_wra ul li {
+  cursor: pointer;
+}
+.add_acount_wrap .add_acount .input_wra .rit_wra .sel_wra .sel_arr_dow {
+  display: inline-block;
+  width: 14px;
+  height: 8px;
+  background: url(../img/icon_arr_down_bla.png);
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+.add_acount_wrap .add_acount .input_wra input[type='radio'] {
+  width: 16px;
+  height: 16px;
+  vertical-align: middle;
+  margin: 0 8px;
+}
+.add_acount_wrap .add_acount .input_wra .star {
+  display: inline-block;
+  position: absolute;
+  background: url(../img/icon_star.png);
+  width: 10px;
+  height: 10px;
+  right: 15px;
+  top: 11px;
+}
+.add_acount_wrap .add_acount .btn_wra {
+  margin-top: 36px;    padding-bottom: 30px;
+}
+.add_acount_wrap .add_acount .btn_cancel {
+  margin-left: 20px;
+}
+/*重置密码弹窗样式*/
+.pop_window .inform{    width: 500px;
+    padding-left: 100px;
+    margin-left: -300px;
+    height: 280px;
+    margin-top: -140px;}
+.pop_window .inform .input_wra{    height: 30px;margin-top: 40px;
+    line-height: 30px;
+    margin-bottom: 16px;}    
+.pop_window .inform .input_wra .lef_tit{    float: left;}
+.pop_window .inform .input_wra .rit_wra{    width: 250px;
+    position: relative;
+    margin-left: 120px;}
+.pop_window .inform .input_wra .rit_wra   input[type='password'] {    width: 200px;
+    height: 28px;
+    border: 1px solid #d3d6d5;
+    background: #f2f2f2;
+    padding: 0 10px;}
+/*帮贷新增规则弹窗*/    
+.gz_pop .inform{    width: 584px; color: #666;
+    height: 336px;
+    padding: 0;
+    margin-left: -292px;
+    margin-top: -168px;}
+.gz_pop .inform .input_wrap{    margin-left: 50px;line-height: 30px;
+    margin-top: 30px;}
+.gz_pop .inform .input_wrap input[type='text'].normal{width: 200px;height: 28px;border: 1px solid #dee0e0; line-height: 30px;}
+.gz_pop input[type='checkbox']{width: 18px;margin: 0 20px;
+    height: 18px;
+    vertical-align: middle;}
+.gz_pop .time_wra{    display: inline-block;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #dee0e0;}    
+.gz_pop .ti{ margin: 0 10px;text-align: center;
+    height: 28px;
+    line-height: 30px;}    

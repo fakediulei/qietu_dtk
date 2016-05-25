@@ -1,0 +1,113 @@
+.con_wra .lef_nav {
+  width: 234px;
+  border-right: 1px dashed #ccc;
+  float: left;
+}
+.con_wra .lef_nav .nav_all {
+  color: #313131;
+}
+.con_wra .lef_nav .nav_all li {
+  padding-left: 15px;
+  background: url(../img/icon_cir_min.png) no-repeat left 6px;
+  cursor: pointer;
+  line-height: 22px;
+}
+.con_wra .lef_nav .nav_all li.clo {  background: url(../img/icon_cir_plu.png) no-repeat left 6px;}
+.con_wra .lef_nav .nav_all li .ope {
+  margin-left: 16px;
+  color: #4565de;
+}
+.con_wra .lef_nav .nav_all ul.sub li {
+  background: none;padding-left: 15px;
+}
+.con_wra .rig_con {
+  position: relative;
+  margin-left: 234px;
+}
+.con_wra .rig_con .ope_wra {
+  width: 374px;
+  position: absolute;
+  left: 50%;
+  margin-left: -187px;
+  margin-top: 65px;
+}
+.con_wra .rig_con .ope_wra .ope_tit {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-bottom: 48px;
+}
+.con_wra .rig_con .ope_wra .input_wra {
+  height: 30px;
+  line-height: 30px;
+  margin-bottom: 16px;
+}
+.con_wra .rig_con .ope_wra .input_wra .lef_tit {
+  float: left;
+}
+.con_wra .rig_con .ope_wra .input_wra input {
+  width: 200px;
+  height: 28px;
+  border: 1px solid #d3d6d5;
+  background: #f2f2f2;
+  padding: 0 10px;
+}
+.con_wra .rig_con .ope_wra .input_wra .rit_wra {
+  width: 250px;
+  position: relative;
+  margin-left: 120px;
+}
+.con_wra .rig_con .ope_wra .input_wra .rit_wra .star {
+  display: inline-block;
+  position: absolute;
+  background: url(../img/icon_star.png);
+  width: 10px;
+  height: 10px;
+  right: 15px;
+  top: 11px;
+}
+.con_wra .rig_con .ope_wra .input_wra .rit_wra .sel_wra {
+  width: 220px;
+  height: 28px;
+  position: relative;
+  border: 1px solid #d3d6d5;
+  background: #f2f2f2;
+  text-align: center;
+}
+.con_wra .rig_con .ope_wra .input_wra .rit_wra .sel_wra ul {
+  background: #ddd;    position: relative;
+    z-index: 66;
+  display: none;
+}
+.con_wra .rig_con .ope_wra .input_wra .rit_wra .sel_wra ul li {
+  cursor: pointer;
+}
+.con_wra .rig_con .ope_wra .input_wra .rit_wra .sel_wra .sel_arr_dow {
+  display: inline-block;
+  width: 14px;
+  height: 8px;
+  background: url(../img/icon_arr_down_bla.png);
+  position: absolute;
+  right: 10px;
+  top: 12px;
+}
+.con_wra .rig_con .ope_wra .btn_wra {
+  margin-top: 50px;
+}
+.con_wra .rig_con .ope_wra .btn_wra .btn_ok {
+  margin-right: 15px;
+}
+.gxh_item{margin-bottom: 30px;}
+.gxh_item .tit{height: 40px;line-height: 40px;background: #d3d6d5; color: #1b1b1b;font-size: 16px;padding: 0 20px; border-bottom: 2px solid #f2f2f2;}
+.gxh_item .cont{background: #e5e5e5; padding: 0 85px 40px;}
+.upload_logo{display: inline-block;width: 100px;height: 100px;}
+.upload_logo img{width: 100px;height: 100px;}
+.gxh_item .l{padding-top: 56px;}
+.gxh_item .l .btn_ok{margin-right: 10px;}
+.gxh_item .line_item{margin: 18px 0;}
+.gxh_item input[type='text']{    width: 200px;
+    height: 28px;
+    border: 1px solid #d3d6d5;
+    background: #f2f2f2;
+    padding: 0 10px;}

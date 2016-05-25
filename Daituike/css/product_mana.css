@@ -1,0 +1,113 @@
+.tab_swi {
+  color: #333;
+  border-bottom: 1px solid #666;
+}
+.tab_swi span {
+  display: inline-block;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  margin-right: 50px;
+  border-bottom: 2px solid transparent;
+}
+.tab_swi span.on {
+  border-bottom: 2px solid #666;
+  color: #e96d25;
+}
+.tab_con {
+  background: #e5e5e5;
+  overflow: hidden;
+  margin-top: 20px;
+}
+.tab_con .tit {
+  float: left;
+  width: 200px;
+  border-right: 2px solid #fff;
+  text-align: center;
+  height: 100%;
+  position: relative;
+}
+.tab_con .tit span {
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+  vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  margin-top: -9px;
+  left: 0;
+  right: 0;
+}
+.tab_con .det {
+  float: left;
+  margin: 60px 0 0 90px;
+}
+.tab_con .det .input_wrap {
+  margin-bottom: 10px;
+  line-height: 32px;
+}
+.tab_con .det .input_wrap .normal {
+  width: 180px;
+  height: 32px;
+  line-height: 32px;
+  padding: 0 10px;
+  margin: 0 10px;
+  border: 1px solid #dee0e0;
+  background: #f2f2f2;
+}
+.tab_con .det .input_wrap .normal.shot {
+  width: 62px;
+}
+.tab_con .det .input_wrap .zw {
+  display: inline-block;
+  width: 70px;
+}
+.tab_con .det .input_wrap .jszq {
+  width: 140px;
+  background: #f2f2f2;
+}
+.tab_con .det .bianqian {
+  margin-left: 80px;
+}
+.tab_con .det .bianqian .cybq {
+  color: #1a1a1a;
+  margin-top: 27px;
+  display: block;
+}
+.tab_con .det .bianqian .bq_wr {
+  margin-top: 10px;
+  width: 620px;
+}
+.tab_con .det .bianqian .bq_wr span {
+  display: inline-block;
+  width: 70px;
+  height: 26px;
+  line-height: 26px;
+  background: #fff;
+  border-radius: 4px;
+  margin: 0 10px 10px 0;
+  text-align: center;
+}
+.tab_con .det .bianqian .bq_wr span:hover,
+.tab_con .det .bianqian .bq_wr span.on {
+  background: #f18e38;
+  color: #fff;
+}
+.tab_con .det .jsxx_btn_wr {
+  margin-top: 46px;
+}
+.tab_con .det .jsxx_btn_wr a {
+  margin: 0 10px;
+}
+.loan_sear_hea {
+  height: 70px;
+  line-height: 70px;
+  background: #fff;
+  padding: 0 30px;
+}
+.loan_sear_hea .normal {
+  width: 260px;
+  height: 32px;
+  padding: 0 10px;
+  border: 1px solid #dee0e0;
+  margin: 0 10px;
+}
